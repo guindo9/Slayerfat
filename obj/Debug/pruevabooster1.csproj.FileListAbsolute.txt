@@ -1,0 +1,9 @@
+C:\Users\guind\source\repos\pruevabooster1\pruevabooster1\obj\Debug\pruevabooster1.Form1.resources
+C:\Users\guind\source\repos\pruevabooster1\pruevabooster1\obj\Debug\pruevabooster1.Properties.Resources.resources
+C:\Users\guind\source\repos\pruevabooster1\pruevabooster1\obj\Debug\pruevabooster1.csproj.GenerateResource.cache
+C:\Users\guind\source\repos\pruevabooster1\pruevabooster1\obj\Debug\pruevabooster1.csproj.CoreCompileInputs.cache
+C:\Users\guind\source\repos\pruevabooster1\pruevabooster1\bin\Debug\pruevabooster1.exe
+C:\Users\guind\source\repos\pruevabooster1\pruevabooster1\bin\Debug\pruevabooster1.pdb
+C:\Users\guind\source\repos\pruevabooster1\pruevabooster1\obj\Debug\pruevabooster1.exe
+C:\Users\guind\source\repos\pruevabooster1\pruevabooster1\obj\Debug\pruevabooster1.pdb
+C:\Users\guind\source\repos\pruevabooster1\pruevabooster1\obj\Debug\pruevabooster1.csprojAssemblyReference.cache
