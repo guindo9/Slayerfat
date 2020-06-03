@@ -337,7 +337,7 @@
             // circularProgressBar2
             // 
             this.circularProgressBar2.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
-            this.circularProgressBar2.AnimationSpeed = 200;
+            this.circularProgressBar2.AnimationSpeed = 300;
             this.circularProgressBar2.BackColor = System.Drawing.Color.Transparent;
             this.circularProgressBar2.Cursor = System.Windows.Forms.Cursors.AppStarting;
             resources.ApplyResources(this.circularProgressBar2, "circularProgressBar2");
@@ -346,7 +346,6 @@
             this.circularProgressBar2.InnerMargin = 0;
             this.circularProgressBar2.InnerWidth = -1;
             this.circularProgressBar2.MarqueeAnimationSpeed = 2000;
-            this.circularProgressBar2.Maximum = 300;
             this.circularProgressBar2.Name = "circularProgressBar2";
             this.circularProgressBar2.OuterColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.circularProgressBar2.OuterMargin = -1;

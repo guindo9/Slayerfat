@@ -166,8 +166,17 @@ namespace pruevabooster1
             startInfo.Arguments = @"/C cd C:\Program Files\Game_Booster\Archivos & EmptyStandbyList.exe workingsets & EmptyStandbyList.exe modifiedpagelist & EmptyStandbyList.exe priority0standbylist & EmptyStandbyList.exe standbylist";
             process.StartInfo = startInfo;
             process.Start();
-            messagebox nuevo_form = new messagebox();
-            nuevo_form.Show();
+            //se localiza el formulario buscandolo entre los forms abiertos 
+            Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is messagebox);
+            if (frm != null)
+            {
+                //si la instancia existe la pongo en primer plano
+                frm.BringToFront();
+                return;
+            }
+            //sino existe la instancia se crea una nueva
+            frm = new messagebox();
+            frm.Show();
         }
         //Limpiar archivos temporales
         private void Button3_Click(object sender, EventArgs e)
@@ -179,8 +188,14 @@ namespace pruevabooster1
             startInfo.Arguments = @"/C RD /S /Q %temp% & md %temp% & md %temp% & rd C:\windows\TEMP /s /q & md C:\windows\TEMP & md C:\windows\TEMP & exit";
             process.StartInfo = startInfo;
             process.Start();
-            messagebox nuevo_form = new messagebox();
-            nuevo_form.Show();
+            Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is messagebox);
+            if (frm != null)
+            {
+                frm.BringToFront();
+                return;
+            }
+            frm = new messagebox();
+            frm.Show(); ;
         }
          //Limpiar cache de actualizaciones
         private void button11_Click(object sender, EventArgs e)
@@ -192,8 +207,14 @@ namespace pruevabooster1
             startInfo.Arguments = @"/C rd C:\Windows\SoftwareDistribution\Download / s / q & md C:\Windows\SoftwareDistribution\Download & md C:\Windows\SoftwareDistribution\Download & exit";
             process.StartInfo = startInfo;
             process.Start();
-            messagebox nuevo_form = new messagebox();
-            nuevo_form.Show();
+            Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is messagebox);
+            if (frm != null)
+            {
+                frm.BringToFront();
+                return;
+            }
+            frm = new messagebox();
+            frm.Show();
         }
          //Refrescar conexiones de red
         private void button9_Click(object sender, EventArgs e)
@@ -205,8 +226,14 @@ namespace pruevabooster1
             startInfo.Arguments = @"/C ipconfig /release & ipconfig /renew & ipconfig /flushdns & netsh winsock reset & exit";
             process.StartInfo = startInfo;
             process.Start();
-            messagebox nuevo_form = new messagebox();
-            nuevo_form.Show();
+            Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is messagebox);
+            if (frm != null)
+            {
+                frm.BringToFront();
+                return;
+            }
+            frm = new messagebox();
+            frm.Show();
         }
          
         //Herramientas
