@@ -7,7 +7,7 @@
     <ProjectGuid>{FECDEF06-E874-460E-947F-887118CA7EDB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>pruevabooster1</RootNamespace>
-    <AssemblyName>pruevabooster1</AssemblyName>
+    <AssemblyName>Game Booster</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

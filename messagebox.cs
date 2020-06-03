@@ -15,7 +15,7 @@ namespace pruevabooster1
         {
             InitializeComponent();
         }
-
+        
         private void messagebox_Load(object sender, EventArgs e)
         {
             pictureBox1.Hide();
@@ -59,7 +59,8 @@ namespace pruevabooster1
         {
 
         }
+       
 
-        
+
     }
 }
