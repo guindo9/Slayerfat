@@ -98,15 +98,6 @@ namespace pruevabooster1
             if (buscar.ShowDialog() == DialogResult.OK)
             {
                 Process.Start(buscar.FileName);
-                Process process = new Process();
-                ProcessStartInfo startInfo = new ProcessStartInfo
-                {
-                    WindowStyle = ProcessWindowStyle.Hidden,
-                    FileName = "cmd.exe",
-                    Arguments = @"/C timeout /t 3 /nobreak & TASKKILL /IM explorer.exe /F & exit"
-                };
-                process.StartInfo = startInfo;
-                process.Start();
             }
         }
 
