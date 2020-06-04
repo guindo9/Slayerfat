@@ -156,63 +156,6 @@
   <data name="barratitulo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>barratitulo</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BtnMinimizar.Name" xml:space="preserve">
-    <value>BtnMinimizar</value>
-  </data>
-  <data name="&gt;&gt;BtnMinimizar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnMinimizar.Parent" xml:space="preserve">
-    <value>barratitulo</value>
-  </data>
-  <data name="&gt;&gt;BtnMinimizar.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;BtnCerrar.Name" xml:space="preserve">
-    <value>BtnCerrar</value>
-  </data>
-  <data name="&gt;&gt;BtnCerrar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnCerrar.Parent" xml:space="preserve">
-    <value>barratitulo</value>
-  </data>
-  <data name="&gt;&gt;BtnCerrar.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="barratitulo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-64, 0</value>
-  </data>
-  <data name="barratitulo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1024, 36</value>
-  </data>
-  <data name="barratitulo.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;barratitulo.Name" xml:space="preserve">
-    <value>barratitulo</value>
-  </data>
-  <data name="&gt;&gt;barratitulo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;barratitulo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;barratitulo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -300,56 +243,182 @@
   <data name="&gt;&gt;BtnCerrar.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="barratitulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-64, 0</value>
+  </data>
+  <data name="barratitulo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 36</value>
+  </data>
+  <data name="barratitulo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;barratitulo.Name" xml:space="preserve">
+    <value>barratitulo</value>
+  </data>
+  <data name="&gt;&gt;barratitulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;barratitulo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barratitulo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="&gt;&gt;button12.Name" xml:space="preserve">
-    <value>button12</value>
+  <data name="Button12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;button12.Type" xml:space="preserve">
+  <data name="Button12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="Button12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 299</value>
+  </data>
+  <data name="Button12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 61</value>
+  </data>
+  <data name="Button12.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Button12.Text" xml:space="preserve">
+    <value>Monitoriar Temperaturas</value>
+  </data>
+  <data name="&gt;&gt;Button12.Name" xml:space="preserve">
+    <value>Button12</value>
+  </data>
+  <data name="&gt;&gt;Button12.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button12.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Button12.Parent" xml:space="preserve">
     <value>Panel2</value>
   </data>
-  <data name="&gt;&gt;button12.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Button12.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;button10.Name" xml:space="preserve">
-    <value>button10</value>
+  <data name="Button10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;button10.Type" xml:space="preserve">
+  <data name="Button10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="Button10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 366</value>
+  </data>
+  <data name="Button10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 61</value>
+  </data>
+  <data name="Button10.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Button10.Text" xml:space="preserve">
+    <value>Administrador de Procesos</value>
+  </data>
+  <data name="&gt;&gt;Button10.Name" xml:space="preserve">
+    <value>Button10</value>
+  </data>
+  <data name="&gt;&gt;Button10.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button10.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Button10.Parent" xml:space="preserve">
     <value>Panel2</value>
   </data>
-  <data name="&gt;&gt;button10.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Button10.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;button8.Name" xml:space="preserve">
-    <value>button8</value>
+  <data name="Button8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;button8.Type" xml:space="preserve">
+  <data name="Button8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="Button8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 232</value>
+  </data>
+  <data name="Button8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 61</value>
+  </data>
+  <data name="Button8.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Button8.Text" xml:space="preserve">
+    <value>Limpiar Disco</value>
+  </data>
+  <data name="&gt;&gt;Button8.Name" xml:space="preserve">
+    <value>Button8</value>
+  </data>
+  <data name="&gt;&gt;Button8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Button8.Parent" xml:space="preserve">
     <value>Panel2</value>
   </data>
-  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Button8.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;button7.Name" xml:space="preserve">
-    <value>button7</value>
+  <data name="Button7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;button7.Type" xml:space="preserve">
+  <data name="Button7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="Button7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 165</value>
+  </data>
+  <data name="Button7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 61</value>
+  </data>
+  <data name="Button7.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Button7.Text" xml:space="preserve">
+    <value>Limpiar Registro</value>
+  </data>
+  <data name="&gt;&gt;Button7.Name" xml:space="preserve">
+    <value>Button7</value>
+  </data>
+  <data name="&gt;&gt;Button7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Button7.Parent" xml:space="preserve">
     <value>Panel2</value>
   </data>
-  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Button7.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 20.25pt, style=Bold</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 83</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 32</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Herramientas</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
@@ -386,171 +455,6 @@
   </data>
   <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="button12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button12.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 12pt</value>
-  </data>
-  <data name="button12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 299</value>
-  </data>
-  <data name="button12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 61</value>
-  </data>
-  <data name="button12.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="button12.Text" xml:space="preserve">
-    <value>Monitoriar Temperaturas</value>
-  </data>
-  <data name="&gt;&gt;button12.Name" xml:space="preserve">
-    <value>button12</value>
-  </data>
-  <data name="&gt;&gt;button12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button12.Parent" xml:space="preserve">
-    <value>Panel2</value>
-  </data>
-  <data name="&gt;&gt;button12.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="button10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button10.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 12pt</value>
-  </data>
-  <data name="button10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 366</value>
-  </data>
-  <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 61</value>
-  </data>
-  <data name="button10.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="button10.Text" xml:space="preserve">
-    <value>Administrador de Procesos</value>
-  </data>
-  <data name="&gt;&gt;button10.Name" xml:space="preserve">
-    <value>button10</value>
-  </data>
-  <data name="&gt;&gt;button10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button10.Parent" xml:space="preserve">
-    <value>Panel2</value>
-  </data>
-  <data name="&gt;&gt;button10.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="button8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 12pt</value>
-  </data>
-  <data name="button8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 232</value>
-  </data>
-  <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 61</value>
-  </data>
-  <data name="button8.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="button8.Text" xml:space="preserve">
-    <value>Limpiar Disco</value>
-  </data>
-  <data name="&gt;&gt;button8.Name" xml:space="preserve">
-    <value>button8</value>
-  </data>
-  <data name="&gt;&gt;button8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
-    <value>Panel2</value>
-  </data>
-  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="button7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 12pt</value>
-  </data>
-  <data name="button7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 165</value>
-  </data>
-  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 61</value>
-  </data>
-  <data name="button7.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="button7.Text" xml:space="preserve">
-    <value>Limpiar Registro</value>
-  </data>
-  <data name="&gt;&gt;button7.Name" xml:space="preserve">
-    <value>button7</value>
-  </data>
-  <data name="&gt;&gt;button7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
-    <value>Panel2</value>
-  </data>
-  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 20.25pt, style=Bold</value>
-  </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>60, 83</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 32</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Herramientas</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>Panel2</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>157, 17</value>
@@ -1272,29 +1176,92 @@
   <data name="&gt;&gt;Button5.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;button11.Name" xml:space="preserve">
-    <value>button11</value>
+  <data name="Button11.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;button11.Type" xml:space="preserve">
+  <data name="Button11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="Button11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 366</value>
+  </data>
+  <data name="Button11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 61</value>
+  </data>
+  <data name="Button11.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Button11.Text" xml:space="preserve">
+    <value>Limpiar Cache de Actualizaciones</value>
+  </data>
+  <data name="&gt;&gt;Button11.Name" xml:space="preserve">
+    <value>Button11</value>
+  </data>
+  <data name="&gt;&gt;Button11.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button11.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Button11.Parent" xml:space="preserve">
     <value>Panel1</value>
   </data>
-  <data name="&gt;&gt;button11.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Button11.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;button9.Name" xml:space="preserve">
-    <value>button9</value>
+  <data name="Button9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;button9.Type" xml:space="preserve">
+  <data name="Button9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="Button9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 299</value>
+  </data>
+  <data name="Button9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 61</value>
+  </data>
+  <data name="Button9.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Button9.Text" xml:space="preserve">
+    <value>Refrescar Conexiones de Red</value>
+  </data>
+  <data name="&gt;&gt;Button9.Name" xml:space="preserve">
+    <value>Button9</value>
+  </data>
+  <data name="&gt;&gt;Button9.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Button9.Parent" xml:space="preserve">
     <value>Panel1</value>
   </data>
-  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Button9.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 20.25pt, style=Bold</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 83</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 32</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Optimizar</value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
@@ -1331,105 +1298,6 @@
   </data>
   <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="button11.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button11.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 12pt</value>
-  </data>
-  <data name="button11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 366</value>
-  </data>
-  <data name="button11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 61</value>
-  </data>
-  <data name="button11.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="button11.Text" xml:space="preserve">
-    <value>Limpiar Cache de Actualizaciones</value>
-  </data>
-  <data name="&gt;&gt;button11.Name" xml:space="preserve">
-    <value>button11</value>
-  </data>
-  <data name="&gt;&gt;button11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button11.Parent" xml:space="preserve">
-    <value>Panel1</value>
-  </data>
-  <data name="&gt;&gt;button11.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="button9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 12pt</value>
-  </data>
-  <data name="button9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 299</value>
-  </data>
-  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 61</value>
-  </data>
-  <data name="button9.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="button9.Text" xml:space="preserve">
-    <value>Refrescar Conexiones de Red</value>
-  </data>
-  <data name="&gt;&gt;button9.Name" xml:space="preserve">
-    <value>button9</value>
-  </data>
-  <data name="&gt;&gt;button9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
-    <value>Panel1</value>
-  </data>
-  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 20.25pt, style=Bold</value>
-  </data>
-  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>75, 83</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 32</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Optimizar</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>Panel1</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="circularProgressBar1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 72pt, style=Bold</value>

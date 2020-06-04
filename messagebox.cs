@@ -16,7 +16,7 @@ namespace pruevabooster1
             InitializeComponent();
         }
         
-        private void messagebox_Load(object sender, EventArgs e)
+        private void Messagebox_Load(object sender, EventArgs e)
         {
             pictureBox1.Hide();
             BtnCerrar.Hide();
@@ -27,7 +27,7 @@ namespace pruevabooster1
             timer1.Start();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
@@ -37,7 +37,7 @@ namespace pruevabooster1
             this.Close();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void Timer1_Tick(object sender, EventArgs e)
         {
             circularProgressBar1.Value += 4;
             circularProgressBar1.Minimum = 0;
@@ -55,7 +55,7 @@ namespace pruevabooster1
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void PictureBox1_Click(object sender, EventArgs e)
         {
 
         }

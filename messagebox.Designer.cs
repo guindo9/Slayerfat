@@ -53,7 +53,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Aceptar";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // pictureBox1
             // 
@@ -65,7 +65,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
             // label1
             // 
@@ -128,7 +128,7 @@
             // 
             // timer1
             // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
             // messagebox
             // 
@@ -149,7 +149,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "messagebox";
             this.TopMost = true;
-            this.Load += new System.EventHandler(this.messagebox_Load);
+            this.Load += new System.EventHandler(this.Messagebox_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).EndInit();
             this.ResumeLayout(false);
