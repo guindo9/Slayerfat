@@ -57,6 +57,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.circularProgressBar2 = new CircularProgressBar.CircularProgressBar();
+            this.Button13 = new System.Windows.Forms.Button();
             this.barratitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
@@ -116,6 +117,7 @@
             this.Panel2.Controls.Add(this.Button7);
             this.Panel2.Controls.Add(this.label2);
             resources.ApplyResources(this.Panel2, "Panel2");
+            this.Panel2.ForeColor = System.Drawing.Color.Transparent;
             this.Panel2.Name = "Panel2";
             this.Panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Panel2_MouseDown);
             // 
@@ -180,13 +182,13 @@
             // 
             // Button4
             // 
-            this.Button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.Button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.Button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.Button4.FlatAppearance.BorderSize = 0;
             this.Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(95)))), ((int)(((byte)(95)))));
             this.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(85)))), ((int)(((byte)(130)))));
             resources.ApplyResources(this.Button4, "Button4");
-            this.Button4.ForeColor = System.Drawing.Color.LightGray;
+            this.Button4.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.Button4.Name = "Button4";
             this.Button4.UseVisualStyleBackColor = false;
             this.Button4.Click += new System.EventHandler(this.Button4_Click);
@@ -364,17 +366,30 @@
             this.circularProgressBar2.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
             this.circularProgressBar2.Value = 68;
             // 
+            // Button13
+            // 
+            this.Button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.Button13.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(81)))), ((int)(((byte)(0)))));
+            this.Button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(95)))), ((int)(((byte)(95)))));
+            this.Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(56)))), ((int)(((byte)(5)))));
+            resources.ApplyResources(this.Button13, "Button13");
+            this.Button13.ForeColor = System.Drawing.Color.White;
+            this.Button13.Name = "Button13";
+            this.Button13.UseVisualStyleBackColor = false;
+            this.Button13.Click += new System.EventHandler(this.Button13_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(58)))));
-            this.Controls.Add(this.Button6);
             this.Controls.Add(this.barratitulo);
             this.Controls.Add(this.Button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.Panel1);
             this.Controls.Add(this.Panel2);
+            this.Controls.Add(this.Button6);
+            this.Controls.Add(this.Button13);
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.circularProgressBar1);
             this.Controls.Add(this.PictureBox1);
@@ -426,6 +441,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
         private CircularProgressBar.CircularProgressBar circularProgressBar2;
+        private System.Windows.Forms.Button Button13;
     }
 }
 
