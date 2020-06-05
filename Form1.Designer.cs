@@ -383,6 +383,7 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(58)))));
+            this.BackgroundImage = global::pruevabooster1.Properties.Resources._1115__1_;
             this.Controls.Add(this.barratitulo);
             this.Controls.Add(this.Button4);
             this.Controls.Add(this.button2);

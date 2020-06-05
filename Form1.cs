@@ -1,17 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
-using System.Threading.Tasks;
 using System.Diagnostics;
-using System.DirectoryServices;
+using System.Linq;
 using System.Runtime.InteropServices;
-using System.IO;
-using System.Windows.Media.Media3D;
+using System.Windows.Forms;
 
 namespace pruevabooster1
 {
@@ -33,7 +25,7 @@ namespace pruevabooster1
             circularProgressBar2.Value = 0;
             circularProgressBar2.Text = circularProgressBar2.Value.ToString();
         }
-            //Activar boost 
+        //Activar boost 
         private void Button1_Click(object sender, EventArgs e)
         {
             Button1.Hide();
@@ -51,7 +43,7 @@ namespace pruevabooster1
             };
             process.StartInfo = startInfo;
             process.Start();
-            
+
             Process proces = new Process();
             ProcessStartInfo startInf = new ProcessStartInfo
             {
@@ -72,7 +64,7 @@ namespace pruevabooster1
             proce.StartInfo = startIn;
             proce.Start();
         }
-        
+
         //Restaurar Windows
         private void PictureBox1_Click(object sender, EventArgs e)
         {
@@ -112,14 +104,14 @@ namespace pruevabooster1
             proce.StartInfo = startIn;
             proce.Start();
         }
-        
+
         //Agregar juegos
         private void Button4_Click(object sender, EventArgs e)
         {
             Process.Start("explorer.exe", @"C:\Program Files\Game_Booster\Juegos");
         }
-        
-         //Abrir juego o aplicacion
+
+        //Abrir juego o aplicacion
         private void Button6_Click(object sender, EventArgs e)
         {
             OpenFileDialog buscar = new OpenFileDialog
@@ -171,7 +163,7 @@ namespace pruevabooster1
                 process.Start();
             }
         }
-        
+
         //Barra de titulo y botones
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -184,13 +176,13 @@ namespace pruevabooster1
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
-          
+
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
-        
+
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
             Process.Start(@"C:\Program Files\Game_Booster\Scrips\cerrar.vbs");
@@ -201,7 +193,7 @@ namespace pruevabooster1
             this.WindowState = FormWindowState.Minimized;
         }
 
-         //Paneles de botones
+        //Paneles de botones
         private void Panel2_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
@@ -214,10 +206,10 @@ namespace pruevabooster1
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-         //Propiedades de boton para imagen de restaurar
+        //Propiedades de boton para imagen de restaurar
         private void PictureBox1_MouseClick(object sender, MouseEventArgs e)
         {
-           
+
         }
 
         private void PictureBox1_MouseHover(object sender, EventArgs e)
@@ -276,7 +268,7 @@ namespace pruevabooster1
             frm = new Messagebox();
             frm.Show(); ;
         }
-         //Limpiar cache de actualizaciones
+        //Limpiar cache de actualizaciones
         private void Button11_Click(object sender, EventArgs e)
         {
             Process process = new Process();
@@ -297,7 +289,7 @@ namespace pruevabooster1
             frm = new Messagebox();
             frm.Show(); ;
         }
-         //Refrescar conexiones de red
+        //Refrescar conexiones de red
         private void Button9_Click(object sender, EventArgs e)
         {
             Process process = new Process();
@@ -318,10 +310,10 @@ namespace pruevabooster1
             frm = new Messagebox();
             frm.Show();
         }
-         
+
         //Herramientas
         //Limpiar registro
-         private void Button7_Click(object sender, EventArgs e)
+        private void Button7_Click(object sender, EventArgs e)
         {
             Process process = new Process();
             ProcessStartInfo startInfo = new ProcessStartInfo
@@ -333,7 +325,7 @@ namespace pruevabooster1
             process.StartInfo = startInfo;
             process.Start();
         }
-         //Limpiar disco
+        //Limpiar disco
         private void Button8_Click(object sender, EventArgs e)
         {
             Process process = new Process();
@@ -346,7 +338,7 @@ namespace pruevabooster1
             process.StartInfo = startInfo;
             process.Start();
         }
-         //Administrador de procesos
+        //Administrador de procesos
         private void Button10_Click(object sender, EventArgs e)
         {
             Process process = new Process();
@@ -359,7 +351,7 @@ namespace pruevabooster1
             process.StartInfo = startInfo;
             process.Start();
         }
-         //Monitoriar temperaturas
+        //Monitoriar temperaturas
         private void Button12_Click(object sender, EventArgs e)
         {
             Process process = new Process();
@@ -373,7 +365,7 @@ namespace pruevabooster1
             process.Start();
         }
 
-         //Timers para animacion 
+        //Timers para animacion 
         private void Timer1_Tick(object sender, EventArgs e)
         {
 
@@ -391,7 +383,7 @@ namespace pruevabooster1
                 Button13.Show();
                 Button6.Hide();
                 Button4.Hide();
-                
+
                 OpenFileDialog buscar = new OpenFileDialog
                 {
                     InitialDirectory = @"C:\Program Files\Game_Booster\Juegos",
@@ -441,11 +433,11 @@ namespace pruevabooster1
             }
         }
 
-        
+
     }
 }
-       
 
-        
-    
+
+
+
 

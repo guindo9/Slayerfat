@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
 using System.Windows.Forms;
 
 namespace pruevabooster1
@@ -16,7 +10,7 @@ namespace pruevabooster1
         {
             InitializeComponent();
         }
-        
+
         private void Messagebox_Load(object sender, EventArgs e)
         {
             pictureBox1.Hide();

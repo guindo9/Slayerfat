@@ -141,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="kis.ico" />
+    <None Include="Resources\1115 %281%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
