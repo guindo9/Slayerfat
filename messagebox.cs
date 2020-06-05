@@ -22,12 +22,12 @@ namespace pruevabooster1
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
 
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
 
         private void Timer1_Tick(object sender, EventArgs e)
@@ -47,14 +47,14 @@ namespace pruevabooster1
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
-        private extern static void ReleaseCapture();
+        private static extern void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
 
-        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+        private static extern void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
         private void Messagebox_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
-            SendMessage(this.Handle, 0x112, 0xf012, 0);
+            SendMessage(Handle, 0x112, 0xf012, 0);
         }
     }
 }
