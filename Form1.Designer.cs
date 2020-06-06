@@ -37,6 +37,7 @@
             this.BtnCerrar = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.Panel2 = new System.Windows.Forms.Panel();
+            this.Button15 = new System.Windows.Forms.Button();
             this.Button12 = new System.Windows.Forms.Button();
             this.Button10 = new System.Windows.Forms.Button();
             this.Button8 = new System.Windows.Forms.Button();
@@ -50,6 +51,7 @@
             this.Button3 = new System.Windows.Forms.Button();
             this.Button5 = new System.Windows.Forms.Button();
             this.Panel1 = new System.Windows.Forms.Panel();
+            this.Button14 = new System.Windows.Forms.Button();
             this.Button11 = new System.Windows.Forms.Button();
             this.Button9 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -111,6 +113,7 @@
             // Panel2
             // 
             this.Panel2.BackColor = System.Drawing.Color.Transparent;
+            this.Panel2.Controls.Add(this.Button15);
             this.Panel2.Controls.Add(this.Button12);
             this.Panel2.Controls.Add(this.Button10);
             this.Panel2.Controls.Add(this.Button8);
@@ -120,6 +123,19 @@
             this.Panel2.ForeColor = System.Drawing.Color.Transparent;
             this.Panel2.Name = "Panel2";
             this.Panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Panel2_MouseDown);
+            // 
+            // Button15
+            // 
+            this.Button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.Button15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.Button15.FlatAppearance.BorderSize = 0;
+            this.Button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(95)))), ((int)(((byte)(95)))));
+            this.Button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(99)))), ((int)(((byte)(151)))));
+            resources.ApplyResources(this.Button15, "Button15");
+            this.Button15.ForeColor = System.Drawing.Color.Transparent;
+            this.Button15.Name = "Button15";
+            this.Button15.UseVisualStyleBackColor = false;
+            this.Button15.Click += new System.EventHandler(this.Button15_Click);
             // 
             // Button12
             // 
@@ -256,6 +272,7 @@
             // Panel1
             // 
             this.Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.Panel1.Controls.Add(this.Button14);
             this.Panel1.Controls.Add(this.Button11);
             this.Panel1.Controls.Add(this.Button9);
             this.Panel1.Controls.Add(this.label3);
@@ -264,6 +281,19 @@
             resources.ApplyResources(this.Panel1, "Panel1");
             this.Panel1.Name = "Panel1";
             this.Panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Panel1_MouseDown);
+            // 
+            // Button14
+            // 
+            this.Button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.Button14.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.Button14.FlatAppearance.BorderSize = 0;
+            this.Button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(95)))), ((int)(((byte)(95)))));
+            this.Button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(99)))), ((int)(((byte)(151)))));
+            resources.ApplyResources(this.Button14, "Button14");
+            this.Button14.ForeColor = System.Drawing.Color.Transparent;
+            this.Button14.Name = "Button14";
+            this.Button14.UseVisualStyleBackColor = false;
+            this.Button14.Click += new System.EventHandler(this.Button14_Click);
             // 
             // Button11
             // 
@@ -443,6 +473,8 @@
         private System.Windows.Forms.Timer timer2;
         private CircularProgressBar.CircularProgressBar circularProgressBar2;
         private System.Windows.Forms.Button Button13;
+        private System.Windows.Forms.Button Button14;
+        private System.Windows.Forms.Button Button15;
     }
 }
 

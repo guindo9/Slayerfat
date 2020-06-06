@@ -39,7 +39,7 @@ namespace pruevabooster1
             {
                 WindowStyle = ProcessWindowStyle.Hidden,
                 FileName = "cmd.exe",
-                Arguments = @"/C net stop SDRSVC & net stop SmsRouter & net stop CryptSvc & net stop Winmgmt & net stop SysMain & net stop WbioSrvc & net stop WSearch & net stop EventSystem & net stop DeviceAssociationService & exit"
+                Arguments = @"/C net stop FontCache & net stop SDRSVC & net stop wuauserv & net stop SysMain & net stop WbioSrvc & net stop WSearch & net stop DeviceAssociationService & exit"
             };
             process.StartInfo = startInfo;
             process.Start();
@@ -49,7 +49,7 @@ namespace pruevabooster1
             {
                 WindowStyle = ProcessWindowStyle.Hidden,
                 FileName = "cmd.exe",
-                Arguments = @"/C net stop FontCache & net stop Themes & net stop wuauserv & net stop DeviceAssociationService & net stop Dnscache & net stop TimeBroker & net stop VaultSvc & net stop UsoSvc & net stop wmiApSrv & net stop SgrmBroker & net stop Spooler & net stop wscsvc & net stop RmSvc & exit"
+                Arguments = @"/C net stop Themes & net stop DeviceAssociationService & net stop Dnscache & net stop TimeBroker & net stop VaultSvc & net stop UsoSvc & net stop wmiApSrv & net stop SgrmBroker & net stop Spooler & net stop wscsvc & net stop RmSvc & exit"
             };
             proces.StartInfo = startInf;
             proces.Start();
@@ -59,10 +59,20 @@ namespace pruevabooster1
             {
                 WindowStyle = ProcessWindowStyle.Hidden,
                 FileName = "cmd.exe",
-                Arguments = @"/C net stop SENS & net stop stisvc & net stop AppXSvs & net stop InstallService & net stop DisplayEnhancementService & net stop TabletInputService & net stop fsvc & net stop NVDisplay.ContainerLocalSystem & net stop AppXSvc & cd C:\Program Files\Game_Booster\Archivos & EmptyStandbyList.exe workingsets & EmptyStandbyList.exe modifiedpagelist & EmptyStandbyList.exe priority0standbylist & EmptyStandbyList.exe standbylist & exit"
+                Arguments = @"/C net stop AppXSvs & net stop InstallService & net stop DisplayEnhancementService & net stop TabletInputService & net stop fsvc & net stop NVDisplay.ContainerLocalSystem & net stop AppXSvc & cd C:\Program Files\Game_Booster\Archivos & EmptyStandbyList.exe workingsets & EmptyStandbyList.exe modifiedpagelist & EmptyStandbyList.exe priority0standbylist & EmptyStandbyList.exe standbylist & exit"
             };
             proce.StartInfo = startIn;
             proce.Start();
+
+            Process proc = new Process();
+            ProcessStartInfo startI = new ProcessStartInfo
+            {
+                WindowStyle = ProcessWindowStyle.Hidden,
+                FileName = "cmd.exe",
+                Arguments = @"/C net stop Winmgmt & net stop CryptSvc & net stop stisvc & net stop SmsRouter & net stop SENS & net stop FontCache & exit"
+            };
+            proc.StartInfo = startI;
+            proc.Start();
         }
 
         //Restaurar Windows
@@ -79,7 +89,7 @@ namespace pruevabooster1
             {
                 WindowStyle = ProcessWindowStyle.Hidden,
                 FileName = "cmd.exe",
-                Arguments = @"/C net start FontCache & net start SENS & net start CryptSvc & net start Winmgmt & net start Themes & net start SysMain &  net start WbioSrvc & net start WSearch & net start EventSystem & net start DeviceAssociationService & exit"
+                Arguments = @"/C net start CryptSvc & net start Winmgmt & net start Themes & net start SysMain & net start WbioSrvc & net start WSearch & net start DeviceAssociationService & exit"
             };
             process.StartInfo = startInfo;
             process.Start();
@@ -89,7 +99,7 @@ namespace pruevabooster1
             {
                 WindowStyle = ProcessWindowStyle.Hidden,
                 FileName = "cmd.exe",
-                Arguments = @"/C net start wscsvc & net start RmSvc & net start DeviceAssociationService & net start Dnscache & net start TimeBroker & net start VaultSvc & net start UsoSvc & net start wmiApSrv & net start SgrmBroker & net start Spooler & net start AppXSvs & net start InstallService & exit"
+                Arguments = @"/C net start TimeBroker & net start VaultSvc & net start UsoSvc & net start wmiApSrv & net start SgrmBroker & net start Spooler & net start AppXSvs & net start InstallService & exit"
             };
             proces.StartInfo = startInf;
             proces.Start();
@@ -99,10 +109,20 @@ namespace pruevabooster1
             {
                 WindowStyle = ProcessWindowStyle.Hidden,
                 FileName = "cmd.exe",
-                Arguments = @"/C net start wuauserv & net start DisplayEnhancementService & net start TabletInputService & net start fsvc & net start SmsRouter & net start SDRSVC & net start NVDisplay.ContainerLocalSystem & net start AppXSvc & exit"
+                Arguments = @"/C net start FontCache & net start TabletInputService & net start fsvc & net start SmsRouter & net start SDRSVC & net start NVDisplay.ContainerLocalSystem & net start AppXSvc & exit"
             };
             proce.StartInfo = startIn;
             proce.Start();
+
+            Process proc = new Process();
+            ProcessStartInfo startI = new ProcessStartInfo
+            {
+                WindowStyle = ProcessWindowStyle.Hidden,
+                FileName = "cmd.exe",
+                Arguments = @"/C net start DeviceAssociationService & net start Dnscache & net start DisplayEnhancementService & net start RmSvc & net start FontCache & net start wuauserv & net start wscsvc & net start SENS & exit"
+            };
+            proc.StartInfo = startI;
+            proc.Start();
         }
 
         //Agregar juegos
@@ -310,6 +330,19 @@ namespace pruevabooster1
             frm = new Messagebox();
             frm.Show();
         }
+        //Prueba de velocidad de internet
+        private void Button14_Click(object sender, EventArgs e)
+        {
+            Process process = new Process();
+            ProcessStartInfo startInfo = new ProcessStartInfo
+            {
+                WindowStyle = ProcessWindowStyle.Normal,
+                FileName = "cmd.exe",
+                Arguments = @"/C mode con:cols=59 lines=20 & title Prueba de Velocidad de Internet & color 3 & cd C:\Program Files\Game_Booster\Archivos & cls & echo =========================================================== & speedtest.exe & echo. & echo =========================================================== & pause & exit"
+            };
+            process.StartInfo = startInfo;
+            process.Start();
+        }
 
         //Herramientas
         //Limpiar registro
@@ -360,6 +393,19 @@ namespace pruevabooster1
                 WindowStyle = ProcessWindowStyle.Hidden,
                 FileName = "cmd.exe",
                 Arguments = @"/C cd C:\Program Files\Game_Booster\Archivos & Speccy.exe & exit"
+            };
+            process.StartInfo = startInfo;
+            process.Start();
+        }
+        //Desinstalar un programa
+        private void Button15_Click(object sender, EventArgs e)
+        {
+            Process process = new Process();
+            ProcessStartInfo startInfo = new ProcessStartInfo
+            {
+                WindowStyle = ProcessWindowStyle.Hidden,
+                FileName = "cmd.exe",
+                Arguments = @"/C cd C:\Program Files\Game_Booster\Archivos & Uninstaller.exe & exit"
             };
             process.StartInfo = startInfo;
             process.Start();
