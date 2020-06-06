@@ -31,7 +31,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
+    <Optimize>true</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -124,13 +124,7 @@
     <None Include="Resources\cerrar.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\maxi.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\minimazar.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\res.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">

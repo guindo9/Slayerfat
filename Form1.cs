@@ -392,7 +392,7 @@ namespace pruevabooster1
             {
                 WindowStyle = ProcessWindowStyle.Hidden,
                 FileName = "cmd.exe",
-                Arguments = @"/C cd C:\Program Files\Game_Booster\Archivos & Speccy.exe & exit"
+                Arguments = @"/C cd C:\Program Files\Game_Booster\Archivos & OpenHardwareMonitor.exe & exit"
             };
             process.StartInfo = startInfo;
             process.Start();
